@@ -1,0 +1,11 @@
+Model Information:
+* title:	Low Poly City Assets
+* source:	https://sketchfab.com/3d-models/low-poly-city-assets-ad2234458d1d494492a2d211b818033e
+* author:	SmallJohn (https://sketchfab.com/SmallJohn)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Low Poly City Assets" (https://sketchfab.com/3d-models/low-poly-city-assets-ad2234458d1d494492a2d211b818033e) by SmallJohn (https://sketchfab.com/SmallJohn) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
