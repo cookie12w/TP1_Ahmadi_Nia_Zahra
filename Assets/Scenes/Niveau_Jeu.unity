@@ -23,9 +23,9 @@ RenderSettings:
   m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
-  m_AmbientIntensity: 1
+  m_AmbientIntensity: 0.89
   m_AmbientMode: 0
-  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SubtractiveShadowColor: {r: 0.6514774, g: 0.6806961, b: 0.754717, a: 1}
   m_SkyboxMaterial: {fileID: 2100000, guid: 2b0ee035e6c540241b0977a4f54c7425, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
@@ -2815,7 +2815,7 @@ Transform:
   - {fileID: 604718051}
   - {fileID: 15706924}
   - {fileID: 8660851059507359646}
-  - {fileID: 965412914}
+  - {fileID: 2765048123614890878}
   - {fileID: 951539515}
   - {fileID: 378497916}
   - {fileID: 271729637}
@@ -8080,14 +8080,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 705507993}
-  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
+  m_LocalRotation: {x: 0.6579203, y: -0.25685218, z: 0.03184723, w: 0.7072154}
   m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 15
-  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+  m_LocalEulerAnglesHint: {x: 71.252, y: -89.584, z: -65.702}
 --- !u!43 &710743571
 Mesh:
   m_ObjectHideFlags: 0
@@ -10535,11 +10535,6 @@ PrefabInstance:
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: c6d29fdc98e35064a9fe70aad4b3eeb3, type: 3}
---- !u!4 &965412914 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 2765048123757036367, guid: c6d29fdc98e35064a9fe70aad4b3eeb3, type: 3}
-  m_PrefabInstance: {fileID: 965412913}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &969041646
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23285,6 +23280,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 4177e7dfe65c71943b20a764c7501e0d, type: 3}
+--- !u!4 &2765048123614890878 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2765048123757036367, guid: c6d29fdc98e35064a9fe70aad4b3eeb3, type: 3}
+  m_PrefabInstance: {fileID: 965412913}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &6792210460940400128
 PrefabInstance:
   m_ObjectHideFlags: 0
