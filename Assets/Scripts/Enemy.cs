@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -26,21 +25,11 @@ public class Enemy : MonoBehaviour
     }
     void Update()
     {
-        // transform.position = new Vector3(transform.position.x, Mathf.PingPong(Speed *Time.deltaTime *2, Lenght), transform.position.z);
-
-        //if (Vector3.Distance(Ball.position, StartPos.position) < 1) // this method calculate distance between ball and strat position
-        //{
-        //    _End = true;
-        //    _Start = false;
-        //}
-        //else
-        //{
         if (Vector3.Distance(Ball.position, EndPos.position) < 2)
         {
             _End = true;
             _Start = false;
         }
-        //}
 
         if (_Start == true)
         {
@@ -59,25 +48,21 @@ public class Enemy : MonoBehaviour
     }
     void Reset()
     {
-        Ball.position = StartPos.position; /*Vector3.Lerp(Ball.position, EndPos.position, Speed * Time.deltaTime);*/
+        Ball.position = StartPos.position;
         print("Reset");
     }
 
     private void OnTriggerEnter(Collider other)
     {
 
-        if (other.CompareTag("Player"))
+        if (other.gameObject.CompareTag("Points"))
         {
-
             Time.timeScale = 0;
-            // GameOver_UiPanel.transform.GetChild(0).gameObject.SetActive(true);
             StartCoroutine(Delay());
         }
     }
     IEnumerator Delay()
     {
-        //GameOver_UiPanel.transform.GetChild(0).gameObject.SetActive(false);
-
         SceneManager.LoadScene("Jeu terminé", LoadSceneMode.Additive);
         yield return new WaitForSecondsRealtime(2);
         GameOver_UiMainMenu.transform.GetChild(0).gameObject.SetActive(true);
